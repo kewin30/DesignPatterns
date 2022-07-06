@@ -11,19 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "Sin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{F37E47B1-CA5B-423C-9488-1C66B57A1BCD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "..\DesignPatterns\Behavioral\Strategy\Strategy.csproj", "{2C41A043-29A3-43C8-B9B9-3F2B93C9AD67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{2C41A043-29A3-43C8-B9B9-3F2B93C9AD67}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "..\DesignPatterns\Behavioral\Observer\Observer.csproj", "{74FF6220-04BA-484C-B7ED-DC3B6ACB818A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Behavioral\Observer\Observer.csproj", "{74FF6220-04BA-484C-B7ED-DC3B6ACB818A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "..\DesignPatterns\Behavioral\Mediator\Mediator.csproj", "{D702BEE1-5C66-4368-823D-8302288CF194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Behavioral\Mediator\Mediator.csproj", "{D702BEE1-5C66-4368-823D-8302288CF194}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "..\DesignPatterns\Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{E407BD8F-3D28-4583-900A-AE40240E6C0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{E407BD8F-3D28-4583-900A-AE40240E6C0C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution", "..\..\..\Desktop\DesignPatterns-master\SOLID\LiskovSubstitution\LiskovSubstitution.csproj", "{B84ABFDF-04F0-4BF3-9745-4E74DE3524B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{B84ABFDF-04F0-4BF3-9745-4E74DE3524B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "..\..\..\Desktop\DesignPatterns-master\SOLID\InterfaceSegregation\InterfaceSegregation.csproj", "{A198DE82-979E-491B-B3B5-DEE871F37EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{A198DE82-979E-491B-B3B5-DEE871F37EDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "..\..\..\Desktop\DesignPatterns-master\SOLID\DependencyInversion\DependencyInversion.csproj", "{248F64DC-5133-4A26-96FF-C62E5859F0D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{248F64DC-5133-4A26-96FF-C62E5859F0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{A274550A-0026-408C-A1F1-CF7CBA413FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{248F64DC-5133-4A26-96FF-C62E5859F0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248F64DC-5133-4A26-96FF-C62E5859F0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248F64DC-5133-4A26-96FF-C62E5859F0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A274550A-0026-408C-A1F1-CF7CBA413FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A274550A-0026-408C-A1F1-CF7CBA413FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A274550A-0026-408C-A1F1-CF7CBA413FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A274550A-0026-408C-A1F1-CF7CBA413FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{B84ABFDF-04F0-4BF3-9745-4E74DE3524B9} = {701002C5-1B2C-42BD-B1DF-73E6E6A24686}
 		{A198DE82-979E-491B-B3B5-DEE871F37EDF} = {701002C5-1B2C-42BD-B1DF-73E6E6A24686}
 		{248F64DC-5133-4A26-96FF-C62E5859F0D4} = {701002C5-1B2C-42BD-B1DF-73E6E6A24686}
+		{A274550A-0026-408C-A1F1-CF7CBA413FE4} = {56C51A65-2E63-48B1-8B95-52344F0DDEAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DED43727-DABF-45A0-A41B-9F17AD168F1F}
